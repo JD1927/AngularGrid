@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.item9 {
+  background: mistyrose;
+  grid-area: span 2 / span 2;
+}

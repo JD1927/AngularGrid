@@ -1,0 +1,5 @@
+<div class="container">
+  <div *ngFor="let r of range; let i = index" class="item" (click)="goToClass(i)" >
+    Class {{(i+2)}}
+  </div>
+</div>
